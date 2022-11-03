@@ -184,7 +184,9 @@ a {
         height: 250px;
     }
     .details p{
-        font-size: 16px;
-        width: 300px;
+        font-size: 15px;
+        text-align: justify;
+        justify-content: center;
+        width: 260px;
     }
 }
