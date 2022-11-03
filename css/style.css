@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 98vh;
+    background-color: #a4152c;
+    align-items: center;
+    padding-top: 10;
+}
+
+.indice {
+    background-color: #a4152c;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50;
+}
+
+.logomarvel {
+    height: 60px;
+}
+
+.box {
+    width: 350px;
+    height: 610px;
+    background-color: #1e1e26;
+    border-radius: 10px;
+    box-shadow: 2px 10px 12px rgba(0,0,0,0,5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px 10px;
+    padding-top: 10px;
+}
+
+.model {
+    height: 350px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.details p {
+    font-family: Calibri;
+    font-weight: bold;
+    color: #6a6a74;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.marvel {
+    color: #32323e;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px
+}
+
+.marvelform {
+    color: #32323e;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px
+}
+
+.box:hover .marvelform {
+    color: #BABEBD;
+    transition: all ease 0.5s;
+}
+
+
+.marveldead {
+    color: #32323e;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px
+}
+
+.box:hover .marveldead {
+    color: #a4152c;
+    transition: all ease 0.5s;
+}
+
+.marveliron {
+    color: #32323e;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px
+}
+
+.box:hover .marveliron {
+    color: #B58D58;
+    transition: all ease 0.5s;
+}
+
+.marvelspid {
+    color: #32323e;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px
+}
+
+.box:hover .marvelspid {
+    color: #D9D9D9;
+    transition: all ease 0.5s;
+}
+
+.marvelthor {
+    color: #32323e;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px
+}
+
+.box:hover .marvelthor {
+    color: #778598;
+    transition: all ease 0.5s;
+}
+
+.marvelven {
+    color: #32323e;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px
+}
+
+.box:hover .marvelven {
+    color: #535A74;
+    text-shadow: 0 0 6px #010326;
+    transition: all ease 0.5s;
+}
+
+.logo {
+    height: 60px;
+}
+
+.box:hover {
+    background-color: #17171d;
+    transform-style: preserve-3d;
+    transform: scale(1.02);
+    transition: all ease 0.3s;
+}
+
+.box:hover .marvel {
+    color: #c0292b;
+    transition: all ease 0.5s;
+}
+
+/*-- responsive for mobile fone --*/
+@media(max-width:720px){
+    .box{
+        width: 94%;
+        height: 500px;
+    }
+    .model{
+        height: 250px;
+    }
+    .details p{
+        font-size: 16px;
+        width: 250px;
+    }
+}
